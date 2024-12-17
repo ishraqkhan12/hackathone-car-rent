@@ -6,6 +6,7 @@ import arrow from "@/assets/Swap.svg"
 
 import PickDrop from "@/components/pichDrop";
 import CarPoster from "@/components/carPoster1";
+import Link from "next/link";
 
 import Card from "@/components/card";
 import car1White from "@/assets/image 7.svg"
@@ -209,6 +210,14 @@ export default function page2() {
                                     </div>
                                 ))}
                             </div>
+                            <div className=" w-full py-4 flex justify-end items-center gap-4">
+            <div className=" w-[55%] flex justify-between items-center">
+            <Link href="./details"><button className="bg-[#3563E9] text-white rounded-md px-5 py-1.5 h-[40px] cursor-pointer hover:bg-[#3259ce] flex justify-center items-center">
+              Detail page
+            </button></Link>
+            <p className="text-gray-500">120 Car</p>
+            </div>
+          </div>
                         </div>
 
                     </div>
