@@ -5,7 +5,7 @@ import Sidebar from "@/components/sideBar";
 import arrow from "@/assets/Swap.svg"
 
 import PickDrop from "@/components/pichDrop";
-import CarPoster from "@/components/carPoster1";
+// import CarPoster from "@/components/carPoster1";
 import Link from "next/link";
 
 import Card from "@/components/card";
@@ -15,9 +15,9 @@ import car3Blue from "@/assets/Car (1).svg"
 import carLGray from "@/assets/Car (2).svg"
 import carLBrown from "@/assets/Car (3).svg"
 import carLBlue from "@/assets/Car (4).svg"
-import carLBlack from "@/assets/Car (6).svg"
+// import carLBlack from "@/assets/Car (6).svg"
 import carLBlueLight from "@/assets/Car (7).svg"
-import carLWhite from "@/assets/Car (8).svg"
+// import carLWhite from "@/assets/Car (8).svg"
 import carLGrayLight from "@/assets/Car (9).svg"
 import heartStroke from "@/assets/Like (3).svg"
 import heartfill from "@/assets/Like (2).svg"
