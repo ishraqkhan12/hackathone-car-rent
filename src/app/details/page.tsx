@@ -11,7 +11,7 @@ import view from '@/assets/poster-view.svg'
 import view1 from '@/assets/View 1.svg'
 import view2 from '@/assets/View 2.svg'
 import view3 from '@/assets/View 3.svg'
-import Link from "next/link";
+// import Link from "next/link";
 
 import Card from "@/components/card";
 import car1White from "@/assets/image 7.svg"
@@ -177,16 +177,17 @@ const Detail = () => {
                     </div>
 
                     {/*       RECENT CAR  -------- */}
-                    <div className="space-y-6">
-                        <div className="flex justify-between">
-                            <p className="text-[#90A3BF]">Recent Car</p>
-                            <p className="font-[500] text-[16px] leading-[20px] text-[#3563E9] cursor-pointer">View All </p>
+                    <div className='space-y-6'>
+                        <div className='flex justify-between'>
+                            <p className='text-[#90A3BF]'>Recent Car</p>
+                            <p className='font-[500] text-[16px] leading-[20px] text-[#3563E9] cursor-pointer'>View All </p>
                         </div>
 
-                        <div className="flex flex-wrap  justify-center items-center gap-7 overflow-hidden">
+                        <div className='flex flex-wrap  justify-center items-center gap-7 overflow-hidden'>
                             {cardData.map((elem, index) => (
 
                                 <Card
+                                    key={index}
                                     name1={elem.name1}
                                     sport={elem.sport}
                                     heart={elem.heart}
@@ -205,16 +206,17 @@ const Detail = () => {
                     </div>
 
                     {/* ------ RECOMMENDE CAR---- */}
-                    <div className="space-y-6">
-                        <div className="flex justify-between">
-                            <p className="text-[#90A3BF]">Recomendation Car</p>
-                            <p className="font-[500] text-[16px] leading-[20px] text-[#3563E9] cursor-pointer">View All </p>
+                    <div className='space-y-6'>
+                        <div className='flex justify-between'>
+                            <p className='text-[#90A3BF]'>Recomendation Car</p>
+                            <p className='font-[500] text-[16px] leading-[20px] text-[#3563E9] cursor-pointer'>View All </p>
                         </div>
 
-                        <div className="flex flex-wrap  justify-center items-center gap-7 overflow-hidden">
+                        <div className='flex flex-wrap  justify-center items-center gap-7 overflow-hidden'>
                             {cardData2.map((elem, index) => (
 
                                 <Card
+                                    key={index}
                                     name1={elem.name1}
                                     sport={elem.sport}
                                     heart={elem.heart}
