@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
-import heartfill from "@/assets/Like (2).svg"
-import car1P from "@/assets/image 7.svg"
+// import heartfill from "@/assets/Like (2).svg"
+// import car1P from "@/assets/image 7.svg"
 
 
 import gas from "@/assets/gas-station.svg"
