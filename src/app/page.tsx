@@ -265,6 +265,7 @@ export default function Home() {
               {popularCardData.map((elem, index) => (
 
                 <Card
+                  key={index}
                   name1={elem.name1}
                   sport={elem.sport}
                   heart={elem.heart}
