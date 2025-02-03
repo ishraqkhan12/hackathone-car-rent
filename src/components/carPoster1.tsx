@@ -2,8 +2,8 @@ import Image from "next/image";
 import car1P from "@/assets/image 7.svg"
 import car2P from "@/assets/image 8.svg"
 
-import round from "@/assets/Ellipse 42.svg"
-import { Interface } from "readline";
+// import round from "@/assets/Ellipse 42.svg"
+// import { Interface } from "readline";
 
 interface IcarP{
     title :string,
